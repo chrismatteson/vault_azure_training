@@ -18,6 +18,8 @@ https://www.vaultproject.io/docs/commands/token/lookup.html
 
 `HINT 1: Copy the unseal keys and initial root token somewhere incase you need to use them again`
 
+`Hint 2: If you connect to vault via SSH to the server, run export VAULT_ADDR=http://127.0.0.1:8200 to configure the vault connection`
+
 ## 8.2 HashiCorp Vault - Enterprise License
 Enable Vault Enterprise features.
 
@@ -26,3 +28,5 @@ Enable Vault Enterprise features.
 * Verify that vault license is installed
 
 https://www.vaultproject.io/api/system/license.html  
+
+`Hint 1: You can use the CLI to install the license. The command is vault write sys/license text=ASDFL08j...`
