@@ -17,7 +17,8 @@ https://www.vaultproject.io/docs/commands/status.html
 https://www.vaultproject.io/docs/commands/token/lookup.html  
 
 `HINT 1: Copy the unseal keys and initial root token somewhere incase you need to use them again`
-`Hint 2: If you connect to vault via SSH to the server, run export VAULT_ADDR=https://127.0.0.1:8200 to configure the vault connection`
+
+`Hint 2: If you connect to vault via SSH to the server, run export VAULT_ADDR=http://127.0.0.1:8200 to configure the vault connection`
 
 ## 8.2 HashiCorp Vault - Enterprise License
 Enable Vault Enterprise features.
